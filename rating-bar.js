@@ -20,3 +20,9 @@ function toggleStars(star) {
         s.className = stateActive;
     }
 }
+
+function resetStars() {
+    stars.forEach(s => {
+        s.className = stateInactive;
+    });
+}

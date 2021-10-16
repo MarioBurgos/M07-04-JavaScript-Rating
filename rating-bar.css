@@ -3,14 +3,14 @@ body {
 }
 
 .rating {
-    width: 500px;
-    height: 100vh;
-    margin: auto;
+    position: absolute;
+    top: 50vh;
+    left: calc(50vw - 250px);
 }
 
 .rating:hover i {
     cursor: pointer;
-    color: #ffee0070;
+    color: #fff67cdc;
 }
 
 .rating>i:hover~i {
@@ -18,11 +18,10 @@ body {
 }
 
 .rating__star {
-    height: 100vh;
+    height: auto;
     color: #ffee00;
     font-size: 5rem;
-    text-shadow: 0px -1px 5px #fff;
-    margin-top: 50vh;
+    /* text-shadow: 0px -1px 5px #fff; */
 }
 
 
