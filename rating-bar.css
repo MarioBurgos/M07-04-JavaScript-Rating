@@ -4,18 +4,29 @@ body {
 
 .rating {
     width: 500px;
-    position: absolute;
-    top: 45%;
-    left: calc( 50% - 250px);
+    height: 100vh;
+    margin: auto;
 }
 
-.rating__star {
-    color: #ffee00;
-    font-size: 5rem;
-    text-shadow: 0px -1px 5px #fff;
-}
-
-.rating__star:hover {
+.rating:hover i {
     cursor: pointer;
     color: #ffee0070;
 }
+
+.rating>i:hover~i {
+    color: #ffee00;
+}
+
+.rating__star {
+    height: 100vh;
+    color: #ffee00;
+    font-size: 5rem;
+    text-shadow: 0px -1px 5px #fff;
+    margin-top: 50vh;
+}
+
+
+/* .rating__star:hover {
+    cursor: pointer;
+    color: #ffee0070;
+} */

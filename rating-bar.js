@@ -4,7 +4,6 @@ const stateActive = 'rating__star fas fa-star fa-2x';
 const stateInactive = 'rating__star far fa-star fa-2x';
 
 function toggleStars(star) {
-
     //controla las estrellas posteriores
     if (star.className == stateActive) {
         star.className = stateInactive;
@@ -20,7 +19,4 @@ function toggleStars(star) {
         const s = stars[i];
         s.className = stateActive;
     }
-
-
-
 }
